@@ -1,10 +1,14 @@
-import {Suspense, useState, useRef, useEffect} from 'react'
-import {Canvas} from '@react-three/fiber'
-import {Html} from '@react-three/drei'
+import { Suspense, useState, useRef, useEffect } from 'react'
+import { Canvas, extend } from '@react-three/fiber' // Corregir la importación
+import { Html } from '@react-three/drei'
+import { OrbitControls, TransformControls } from 'three-stdlib'
 import Loader from '../components/Loader'
 import AnimatedTitle from "./../components/AnimatedTitle";
 import Galaxy from '../models/Galaxy'
-import {useNavigate} from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'
+
+// Extender el catálogo de JSX
+extend({ OrbitControls, TransformControls })
 
 const Welcome = () => {
   const [isRotating, setIsRotating] = useState(false);
@@ -77,7 +81,7 @@ const Welcome = () => {
           />
         )}
         <button 
-          class="btn"
+          className="btn"
           onClick={handleStartAdventure} // Add click handler
         >
            <strong>START THE ADVENTURE</strong>
@@ -86,8 +90,8 @@ const Welcome = () => {
   </div>
 
   <div id="glow">
-    <div class="circle"></div>
-    <div class="circle"></div>
+    <div className="circle"></div>
+    <div className="circle"></div>
   </div>
         </button>
       </div>
