@@ -2,7 +2,7 @@
 
 import React, { useRef } from 'react'
 import { useGLTF, useAnimations } from '@react-three/drei'
-import HeadScene from "../assets/3d/head2.glb"
+import HeadScene from "../../public/assets/3d/head2.glb"
 
 const HeadLight =(props)=> {
   const group = useRef()

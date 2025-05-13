@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from 'react'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import { extend } from '@react-three/fiber' // Corregir la importación
 import { OrbitControls, TransformControls } from 'three-stdlib'
-import CloudsScene from "../assets/3d/cloud_station.glb"
+import CloudsScene from "../../public/assets/3d/cloud_station.glb"
 
 // Extender el catálogo de JSX
 extend({ OrbitControls, TransformControls })

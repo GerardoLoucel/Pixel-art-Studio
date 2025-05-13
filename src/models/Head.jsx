@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
-import HeadScene from "../assets/3d/head.glb"
+import HeadScene from "../../public/assets/3d/head.glb"
 
 const Head = (props)=> {
   const { nodes, materials } = useGLTF(HeadScene)

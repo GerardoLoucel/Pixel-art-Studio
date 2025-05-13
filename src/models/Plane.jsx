@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { useGLTF, useAnimations } from '@react-three/drei';
-import PlaneScene from "../assets/3d/plane.glb";
+import PlaneScene from "../../public/assets/3d/plane.glb";
 
 const Plane = (props) => {
   const { onRender, ...restProps } = props; // Destructure onRender prop

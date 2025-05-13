@@ -303,7 +303,7 @@ To interact with the page, you can click the orange button at the bottom of the 
      
         <BentoTilt className="border-hsla relative mb-9 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
         <BentoCard
-          src="/src/assets/video/video1.mp4"
+          src="/assets/video/video1.mp4"
           title={
             <>
               Unlocking Digital Dimensions
@@ -361,7 +361,7 @@ To interact with the page, you can click the orange button at the bottom of the 
      
         <BentoTilt className="border-hsla relative mb-9 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
         <BentoCard
-          src="/src/assets/video/video2.mp4"
+          src="/assets/video/video2.mp4"
           title={
             <>
               Where Creativity Meets Technology
@@ -419,7 +419,7 @@ To interact with the page, you can click the orange button at the bottom of the 
      
         <BentoTilt className="border-hsla relative mb-9 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
         <BentoCard
-          src="/src/assets/video/video3.mp4"
+          src="/assets/video/video3.mp4"
           title={
             <>
               Crafting Digital Masterpieces
@@ -477,7 +477,7 @@ To interact with the page, you can click the orange button at the bottom of the 
      
         <BentoTilt className="border-hsla relative mb-9 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
         <BentoCard
-          src="/src/assets/video/video4.mp4"
+          src="/assets/video/video4.mp4"
           title={
             <>
               Pixel Perfect 3D Modeling & Web Solutions
@@ -527,7 +527,7 @@ To interact with the page, you can click the orange button at the bottom of the 
         }`}
         onClick={() => setShowTooltip(true)} // Show tooltip on click or tap
         style={{
-          
+
           maxWidth: '300px', // Limit horizontal width
           width: '100%', // Responsive width
         }}
@@ -535,7 +535,7 @@ To interact with the page, you can click the orange button at the bottom of the 
      
         <BentoTilt className="border-hsla relative mb-9 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
         <BentoCard
-          src="/src/assets/video/video5.mp4"
+          src="/assets/video/video5.mp4"
           title={
             <>
               Innovative 3D Modeling & Web Development
